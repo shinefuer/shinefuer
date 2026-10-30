@@ -10,12 +10,6 @@
 
 ![研究旅程：frugent](assets/journey.svg)
 
-## 项目
-
-| 项目 | 研究方向 | 已实现内容 |
-|---|---|---|
-| [frugent](https://github.com/shinefuer/frugent) | 成本效率 Coding Agent 运行时 | 版本化上下文存储与前缀树 token 核算、前缀感知 prompt-cache 路由（小迹上可证近优）、投毒安全语义缓存（MinHash/shingle 模糊键 + 等价性质测试）、token 预算上下文压缩（knapsack 精确解 + needle-recall 实测降级曲线）、请求批处理/去重（single-flight 订阅者结果等价）、级联模型路由（质量门升级 + 合成难度混合上恢复 DP 最优）、硬预算调度（随机化性质套件证明永不超支 + 降级阶梯）、span 级成本归因（守恒性质 + trace diff）、allowlist 沙箱工具执行器（路径穿越/注入拒绝性质）、合成编码负载工厂（植入最优成本画像）、离线基准与确定性 SVG/HTML 成本报告、完整 CLI |
-
 <div align="center">
 
 [![CI](https://github.com/shinefuer/frugent/actions/workflows/ci.yml/badge.svg)](https://github.com/shinefuer/frugent/actions/workflows/ci.yml)
@@ -24,8 +18,6 @@
 ![tests](https://img.shields.io/badge/tests-1280_passed-a78bfa?style=flat-square)
 
 </div>
-
-523 次提交（2025.01 — 2026.10）· 33 个源码模块 · 4 个可运行离线示例 · 每次提交都经过构建、测试与格式检查。所有测量数字来自带植入最优解的确定性合成负载与虚构费率卡：无真实模型端点、无预训练权重、全离线可复现。
 
 ## 技术栈
 
