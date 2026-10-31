@@ -39,7 +39,7 @@
   </g>
 
   <!-- left: identity -->
-  <text class="sub" x="48" y="52">中山大学 · Sun Yat-sen University</text>
+  <text class="sub" x="48" y="52">广东财经大学 · Guangdong University of Finance and Economics</text>
   <g class="type"><text class="name" x="48" y="118">Wu Manruo</text></g>
   <rect class="caret" x="352" y="84" width="3" height="40"/>
   <text class="role" x="48" y="152">高性能 × 成本效率的 Coding Agent 框架</text>
